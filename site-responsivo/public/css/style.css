@@ -1,0 +1,190 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+main{
+    width: 100%;
+    max-width: 1015px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+header > .icon{
+    display: none;
+    position: absolute;
+    left: 20px;
+}
+header > .icon > .menuham{
+width: 40px;
+height: 4px;
+background-color: #fff;
+border-radius: 3px;
+margin-bottom: 6px;
+cursor: pointer;
+}
+header > .logo{
+    width: 200px;
+}
+header>.logo img{
+    width: 100%;
+}
+.menu{
+    flex: 1;
+}
+.menu > ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    justify-content: flex-end;
+}
+.menu > ul > li{
+    margin: 0 10px;
+}
+.menu > ul > li > a{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.content-area{
+    flex: 1;
+    margin-right: 40px;
+}
+.content-area  h1{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.phone-area{
+    display: flex;
+    justify-content: center;
+}
+.phone-area .phone1{
+    height: 400px;
+    width: auto;
+    position: relative;
+    z-index: 2;
+    top: 10px;
+}
+.phone-area .phone2{
+    height: 400px;
+    width: auto;
+    position: relative;
+    margin-left: -100px;
+    z-index: 1;
+    
+}
+.cta{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.button{
+    cursor: pointer;
+    margin: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button:first-child{
+    background-color:#00aa00;
+}
+.button:last-child{
+    background-color: #0000aa;
+}
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+.button:first-child:hover{
+    background-color: #00ff00;
+}
+.button:last-child:hover{
+    background-color: #0000ff;
+}
+@media (max-width:1010px){
+    header{
+       
+        margin: 20px 0px;
+    }
+    .container{
+       flex-direction: column;
+    }
+    .content-area{
+        text-align: center;
+    }
+    .content-area h1{
+        margin-top: 0;
+    }
+    .content-area p {
+        margin: 0 40px;
+    }
+    .content-area .cta{
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .phone-area{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .phone-area  .phone1{
+        z-index: 0;
+        top: 0;
+        margin-right: 20px;
+    }
+    .phone-area .phone2{
+        z-index: 0;
+        margin-left: 20px;
+    }
+}
+@media(max-width:650px){
+    .menu{
+        display: none;
+    }
+    header > .icon{
+        display: block;
+    }
+    header .logo{
+        width: 100%;
+        text-align: center;
+    }
+    header .logo img{
+        width: 200px;
+    }
+    .container > .content-area > h1{
+        font-size: 30px;
+    }
+    .container > .content-area > .cta{
+        flex-direction: column;
+        align-items: center;
+    }
+    .phone-area{
+        margin-bottom: 50px;
+    }
+    .phone-area .phone1{
+        top: 0px;
+        height:450px;
+        z-index: 2;
+        
+    } .phone-area .phone2{
+        height: 450px;
+        margin-left: -150px;
+        
+    }
+    
+}
