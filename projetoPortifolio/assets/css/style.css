@@ -1,0 +1,137 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center  ;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+header .logo{
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+}
+header .menu{
+    width: 30px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+   
+}
+header .menuLine{
+    height: 3px;
+    background-color: #333;
+}
+.container{
+    display: flex;
+    height: 100vh;
+}
+.leftSide{
+flex: 1;
+background-color: #3b576b;
+display: flex;
+align-items: center;
+padding-left: 20px;
+
+}
+.rightSide{
+flex: 1;
+background-image: url(../images/eu.jpg);
+background-position: center;
+background-size: 100% auto;
+
+
+}
+
+.container .info{
+    color: #fff;
+}
+
+ .profissao{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+}
+.nome{
+    font-size: 60px;
+    margin-bottom:30px ;
+    margin-top: 10px;
+}
+.botao a{
+     display: inline-block;
+     background-color: #fff;
+     color: #3b576b;
+     padding: 20px 40px;
+     font-size: 16px;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+     box-shadow: 0px 0px 10px  #111;
+     border-radius: 5px;
+     margin-right: 20px;
+
+}
+ .botao .light {
+    color: #fff;
+    background-color: #3b576b;
+}
+.botao a:hover{
+   opacity: 0.8;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    color: #fff;
+   font-size: 13px;
+}
+footer a{
+    color: #fff;
+}
+@media (max-width: 850px){
+    header{
+        position: initial;
+        background-color: #3b576b;
+    }
+    header .menuLine{
+        background-color: #fff;
+    }
+    .container{
+        flex-direction: column;
+    }
+    .container .leftSide{
+        flex: none;
+        padding: 30px 20px;
+        justify-content: center;
+        text-align: center;
+    }
+    footer{
+        position: initial;
+        color: #333;
+        font-size: 16px;
+    }
+    footer a{
+        color: #333;
+    }
+}
+@media (max-width: 450px) {
+    .container .leftSide .info .name{
+         font-size: 50px;
+    }
+    .container .leftSide .info .botao a{
+        display: block;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+}

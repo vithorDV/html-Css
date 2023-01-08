@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%; 
+    display:flex;
+    flex-direction: column;
+    
+}
+header{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content:end;
+    
+}
+header p{
+    font-size: 12pt;
+}
+#menu{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+#fotoUsuario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#gmail, #imagens{
+    margin-left: 20px;
+}
+header, nav{
+    margin-left: 10px;
+}
+
+#menu #fotoUsuario{
+    width:100px;
+}
+#menu{
+    width: 50px;
+    height: 50px;
+    
+}
+#menu img{
+    width: 20px;
+}
+#fotoUsuario{
+    width: 50px;
+    height: 50px;
+    
+}
+#fotoUsuario img{
+    width:35px;
+    
+    
+}
+#menu:hover{
+    background-color: #ccc;
+    border-radius:25px;
+}
+#fotoUsuario:hover{
+    background-color:#ccc;
+    border-radius: 25px;
+}
+
+#gmail #imagens, a{
+    text-decoration: none;
+    color:#000;
+    
+}
+#gmail #imagens, a:hover{
+    text-decoration:underline;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    align-content: center;
+    text-align: center;
+    flex: 1;
+}
+#logo img{
+    width: 275px;
+}
+
+#pesquisa{
+    border: 2px solid #ccc;
+    width:500px;
+    height: 40px;
+    border-radius: 25px;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-top: 25px;
+}
+
+#pesquisa:hover{
+    box-shadow:#ccc;
+
+}
+#pesquisa textarea{
+    border: 0px solid #fff;
+    resize: none;
+    overflow:hidden;
+    justify-content: flex-start;
+}
+#Barra-Pesquisa{
+    border: 0px solid #fff;
+    outline: 0;
+}
+#mic img{
+    width: 30px;
+    margin-right:10px;
+    cursor: pointer;
+}
+#teclado img{
+    margin-right: 10px;
+    cursor: pointer;
+}
+#textoMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#texto{
+    margin-right: 25px;
+    margin-top: 25px;
+    height: 40px;
+    width: 125px;
+    border-radius: 10px;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+}
+#texto a{
+    text-decoration: none;
+}
+#texto:hover{
+    border: 1px solid #ddd;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+#footerHeader{
+    width: 100%;
+    background-color: #eee;
+    border-top: 1px solid #bbb;
+    line-height: 40px;
+    min-width: 980px;
+    
+}
+#footerHeaderTexto{
+    margin-left: 30px;
+    
+}
+#footer2{
+    width: 100%;
+    background-color: #eee;
+    border-top: 1px solid #bbb;
+    display: flex;
+    justify-content: space-between;
+    min-width: 980px;
+    height: 100%;
+}
+#footer2TextLeft{
+    display: flex;
+    align-items: center;
+    
+}
+#footer2TextRight{
+    align-items: center;
+    display: flex;
+    
+}
+#footerSpanLeft{
+    margin-left: 30px;
+    
+}
+#footerSpanRight{
+    margin-right: 30px;
+    
+    
+}
+#footerSpanLeft:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#footerSpanRight:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

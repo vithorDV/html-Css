@@ -1,0 +1,188 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: helvetica,arial;	
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center; 
+}
+
+#logo{
+    width: 100px;
+	height: 31px;
+    padding-left:32px;
+}
+#logo img{
+    width: 80px;
+    height: 28px;
+}
+#barraDePesquisa{
+    height:34px ;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+#barraDePesquisa input{
+    width: 480px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    outline: 0;
+    font-size: 11pt;
+    
+}
+
+#teclado img{
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#mic img{
+    height: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+#menu img{
+    width: 15px;
+    cursor: pointer;
+}
+#usuario{
+    background-color: #0077ff;
+    color: #fff;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 10pt;
+    font-weight: bolder;
+}
+#menu, #usuario{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#login{
+    width: 200px;
+	height: 30px;	
+	position: absolute;
+	right: 30px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;	
+}
+#main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    justify-content: center;
+}
+#headerMain{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    margin-left: 160px;
+}
+.opçoes{
+    margin-left: 20px;
+    font-size:10pt;
+    color: #666;
+}
+.opçoes:hover{
+    margin-bottom: 5px;
+    border-bottom: 3px solid #0077ff;
+}
+#opção1{
+    border-bottom: 3px solid #0077ff;
+}
+#bodyMain{
+    display: flex;
+    flex-direction: column;
+    
+}
+#quantResultados{
+    color:#666;
+    font-size: 10pt;
+    margin-top: 10px;
+    margin-left: 160px;
+    display: flex;
+    justify-content:left ;
+
+}
+.link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start ;
+    margin-left:160px ;
+    
+}
+.link h2{
+    color: #038003d5;
+    font-size:11pt;
+    margin-top: -5px;
+}
+.link h1 {
+    font-size: 13pt;
+    color: #044fa3;
+    margin-top: -5px;
+}
+main a{
+    text-decoration: none;
+}
+.link p{
+    font-size: 11pt;
+    word-wrap:break-word;
+    line-height: 15px;
+    margin-top: -5px;
+    margin-bottom:35px;
+}
+.link h1:hover{
+    text-decoration: underline;
+}
+#mais{
+    display: flex;
+    flex-direction: row;
+}
+#footerMain h1{
+    font-size: 14pt;
+    margin-left: 160px;
+    font-weight: lighter;
+}
+#footerMain a{
+    color:#0077ff;
+    margin-bottom: 10px;
+}
+.borda{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: #bbb;
+    width: 140px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+    border-radius: 30px;
+}
+#footerMain a:hover{
+    text-decoration: underline;
+}

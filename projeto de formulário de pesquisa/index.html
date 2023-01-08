@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto de formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div id="Título">
+        <h1>Formulário</h1>
+    </div>
+</header>
+    
+        <main id="formulários">
+            <div id="form1">
+                <form action="" method="get">
+                        <h2>Dados pessoais</h2>
+                        Digite seu nome:<br>
+                        <input type="text" name="nome"><br>
+                        Digite seu sobrenome: <br>
+                        <input type="text" name="sobrenome"><br>
+                        Digite seu email: <br>
+                        <input type="email" name="email" id="email" placeholder="exemplo:nome.sobrenome@gmail.com"><br>
+                        Digite sua data de nascimento: <br>
+                        <input type="date" name="dataDeNascimento" id="dataDeNascimento"><br>
+                        Escolha seu genêro: <br>
+                        Masculino<input type="radio" name="genero" id="genero" value="">
+                        Feminimo<input type="radio" name="genero" id="genero"><br>
+                        Digite seu CPF: <br>
+                        <input type="number" placeholder="880338775981"><br>
+                        Digite seu número: <br>
+                         <input type="tel" placeholder="exemplo:(11)78945-45963"><br>
+                        Nascionalidade:
+                        <select name="nascionalidade" id="nascionalidade">
+                        <option value="País">Argentina</option>
+                        <option value="País">Brasil</option>
+                        <option value="País">Uruguai</option>
+                        <option value="País">Chile</option>
+                        </select>
+                </form>
+            </div>
+            <div id="form2">
+                            <form action="" method="get">
+                                <h2>Dados profissionais</h2>
+                                Cargo desejado: <br>
+                                Gerência<input type="radio" name="cargo" id="cargo">
+                                Financeiro<input type="radio" name="cargo" id="cargo">
+                                Recpeção<input type="radio" name="cargo" id="cargo">
+                                Administrativo<input type="radio" name="cargo" id="cargo"><br>
+                                Áreas de interesse: <br>
+                                Computação<input type="radio" name="interesses" id="interesses">
+                                Biologia<input type="radio" name="interesses" id="interesses">
+                                Meio ambiente<input type="radio" name="interesses" id="interesses">
+                                Engenharia<input type="radio" name="interesses" id="interesses"> <br>
+                                Faça um descrição sobre si: <br>
+                                <textarea name="descriçao" id="descriçao" cols="30"rows="10"></textarea>
+                                <input type="submit" value="enviar">
+                            </form>
+            </div>
+        </main>
+    
+</body>
+</html>
