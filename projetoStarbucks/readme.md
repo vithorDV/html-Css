@@ -1,0 +1,1 @@
+Este projeto foi feito com base no projeto StarBucks da B7Web https://alunos.b7web.com.br/curso/html5-e-css3/starbucks-introducao

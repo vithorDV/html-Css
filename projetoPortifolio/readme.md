@@ -1,0 +1,1 @@
+Este projeto foi feito com base no projeto da B7Web https://alunos.b7web.com.br/curso/html5-e-css3/criando-um-site-de-portfolio-live-1

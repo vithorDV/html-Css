@@ -1,0 +1,1 @@
+Este projeto foi feito como exercício de projeto na B7Web https://alunos.b7web.com.br/curso/html5-e-css3/projeto-site-com-flexbox-e-html-semantico-parte-1
